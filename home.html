@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PC Asset Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>PC Information Form</h2>
+    <form action="#" method="POST">
+        <label for="pc_model">PC Model:</label><br>
+        <input type="text" id="pc_model" name="pc_model"><br><br>
+
+        <label for="pc_name">PC Name:</label><br>
+        <input type="text" id="pc_name" name="pc_name"><br><br>
+
+        <label for="pc_serial">PC Serial Number:</label><br>
+        <input type="text" id="pc_serial" name="pc_serial"><br><br>
+
+        <label for="pc_asset_tag">PC Asset Tag (Integer only):</label><br>
+        <input type="number" id="pc_asset_tag" name="pc_asset_tag"><br><br>
+
+        <label for="status">Status:</label><br>
+        <select id="status" name="status">
+            <option value="in_production">In Production</option>
+            <option value="retired">Retired</option>
+            <option value="in_stock">In Stock</option>
+        </select><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
